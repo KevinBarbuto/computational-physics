@@ -1,6 +1,7 @@
 # Objective: Write a program that takes a user input for the period of
 # a satellite's orbit, and then outputs the necessary altitude of the
-# satellite. The satellite's name is "Thrash".
+# satellite. 
+# The satellite was named "Thrash", with the assistance of Dr. Isac.
 # Coded July 7, 2022.
 
 G = 6.67e-11 # Newton's gravitational constant
@@ -16,7 +17,7 @@ print("The satellite must be", h, "meters from the earth's surface.")
 # The derivation for the formula used can be seen in "exercise02.02-satellite-altitude-derivation.jpg".
 
 # If the program returns a negative output (i.e. in the case of a 45-minute
-# orbit), then this implies that Thrash would have to be below the earth's
+# orbit), then this implies that the satellite would have to be below the earth's
 # surface. Therefore, the orbit is impossible.
 
 # For a satellite orbiting the earth once a day (24 hour period), the required
